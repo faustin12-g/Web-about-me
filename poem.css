@@ -1,0 +1,137 @@
+body{
+    font-size: 18px;
+}
+.str {
+    color: blueviolet;
+}
+#1st {
+    font-style: italic;
+}
+h1{
+    text-shadow: 3px 3px 5px rgb(52, 195, 193), -3px -3px 5px rgb(109, 14, 34);
+  
+}
+a{
+    color: chartreuse;
+    touch-action: cross-slide-y;
+}
+.and {
+    float: right;
+}
+nav ul li a{
+    display: inline;
+}
+.story{
+    border: 10px solid;
+    height: 80px;
+    overflow: scroll;
+}
+#who p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#who:hover p{
+    display: block;
+}
+#mean p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#mean:hover p{
+    display: block;
+}
+#a p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#a:hover p{
+    display: block;
+}
+#b p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#b:hover p{
+    display: block;
+}
+#c p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#c:hover p{
+    display: block;
+}
+#d p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#d:hover p{
+    display: block;
+}
+#e p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#e:hover p{
+    display: block;
+}
+#f p{ 
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+
+}
+#f:hover p{
+    display: block;
+}
+
+
+a:link{
+    color: rgb(66, 66, 193);
+}
+
+a:hover{
+    color: rgb(15, 19, 138);
+    font-size: 1.5em;
+
+}
+a:active{
+    color: #974534;
+    font-size: 1.1em;
+}
+a:visited{
+    
+    
+}
+.page{
+    text-align: center;
+}
+.page a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.page a.active{
+    background-color: green;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.page a:hover:not(:active){
+    background-color: gray;
+    border-radius: 8px;
+    font-weight: bold;
+}

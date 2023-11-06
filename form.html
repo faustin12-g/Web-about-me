@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">ENROLL <br> IN OUR <br>ONLINE <br>LEARNING <br>PLATFORM</h1>
+    <a href="index.html">Back</a>
+    <form action="index.php" method="post" enctype="multipart/form-data" id="fom">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" placeholder="Full name" minlength="6" maxlength="15" required>
+        <br>
+        <label for="email">Email:      </label>
+        <input type="email" placeholder="example@gmail.com" name="" id="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="Password" placeholder="XXXXXXXX" minlength="12" maxlength="20" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" placeholder="250-7xx-xxx-xxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" id="phone" minlength="10" maxlength="12" required>
+        <br>
+        <label for="db">Birthdate:</label>
+        <input type="date" id="bd" required>
+        <br>
+        <label for="qty">Quantity</label>
+        <input type="number" id="qty" min="0" max="99" value="2"><br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" value="Male" name="gender">
+        <label for="female">Female:</label>
+        <input type="radio" id="female" value="Female" name="gender"><br>
+        <label for="age">Age:</label>
+        <select id="age" required>
+            <option value="range1">15-21</option>
+            <option value="range2">22-30</option>
+            <option value="range3">31-40</option>
+            <option value="range4">32-above</option>
+        </select>
+        <br>
+        <label for="comfirm">Comfirm profile:</label>
+        <input type="checkbox" name="" id="comfirm" required>
+<br>
+<label for="about">Tell us more about you:</label>
+<textarea id="about" cols="20" rows="2"></textarea><br>
+<label for="dip">Upload a degree:</label>
+<input type="file" id="dip" required><br>
+<label for="cv">Upload a CV:</label>
+<input type="file" id="cv" accept="doc/pdf" required>
+
+
+        
+        <input type="reset">
+        <input type="Submit"><br><br>
+        </form>
+        
+       <div class="go"> <div class="page">
+            <a href="formula.html"><</a>
+            <a href="login.html">1</a>
+            <a href="index.html">2</a>
+            <a href="story.html">3</a>
+            <a href="Poem.html">4</a>
+            <a href="Game.html">5</a>
+            <a href="formula.html">6</a>
+            <a href="form.html"  class="active">7</a>
+            <a href="form.html">></a>
+        </div>
+        <a href="index.html">Back</a>
+    </div>
+        
+</body>
+</html>
